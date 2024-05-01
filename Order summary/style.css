@@ -1,0 +1,98 @@
+body{
+    background-image: url(desktop_background.svg);
+    background-repeat: no-repeat;
+    background-color: #cee1ec;
+}
+.main{
+    background-color: white;
+    height: 550px;
+    width: 360px;
+    margin: 40px auto;
+    margin-top: 55px;
+    border-radius: 20px;
+    font-family: sans-serif;
+}
+.illustration img{
+    width: 100%;
+    border-radius: 19px 19px 0 0;
+}
+.summary{
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+}
+.summary h2{
+    font-size: 19px;
+    color: rgb(45, 44, 44);
+}
+.summary p{
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #565859;
+}
+.part3{
+    background-color: rgb(240, 240, 240);
+    height: 60px;
+    margin: 3px 30px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 10px;
+}
+.part3 span img{
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+}
+.part3 h4{
+    color: #313131;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.part3 p{
+    color: #353333;
+    font-size: 12px;
+   
+}
+.part3 h4 , p{
+    margin: 5px;
+}
+.part3 a{
+    font-size: 14px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 70px;
+    color: blue;
+
+}
+
+.proceed{
+    margin: 25px 30px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: rgb(40, 40, 232);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 12px 15px rgba(114, 113, 113, 0.3);
+
+    
+}
+.proceed a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cancel_order{
+    text-align: center;
+}
+.cancel_order button{
+    border: none;
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #5f5c5c;
+}
